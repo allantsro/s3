@@ -1,0 +1,19 @@
+Semantics 
+	- html elements that describes its meaning 
+
+Ex. Non-semantics
+<div></div>
+<span></span>
+
+Semantics - clearly defines its content
+<form>, <table>, <article>
+
+<header>
+<nav>
+<section>
+<aside> 
+<article>
+<footer>
+
+Three ways to add CSS:
+1. Inline styles
