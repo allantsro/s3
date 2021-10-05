@@ -1,8 +1,112 @@
-p {
-	color:red;
+/*
+	CSS syntax:
+	selector{
+		property: value;
+	}
+
+*/
+/*Universal Selector - allows us to select All of our elements
+elements
+
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Courier New", monospace;
+	font-size: 20px;
 }
 
-img {
-	width: 400px;
-	border: 10px solid black;
+body{
+	background-color: pink;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+nav{
+	background-color: white;
+}
+
+img{
+	width:300px;
+	broder:20px black;
+}
+
+a:hover{
+	background-color: #b4d6de;
+}
+
+div{
+	display: inline-block;
+	float: right;
+}
+
+h1{
+	color: green !important;
+	text-align: center;
+	font-size: 2rem;
+}
+
+section{
+	height: 100vh;
+	text-align: center
+}
+
+h2{
+	font-size: 1.5rem;
+}
+
+#ceu-motto{
+	letter-spacing: 5px;
+}
+
+.offering-item{
+	text-transform: uppercase;
+}
+
+ol{
+	list-style-type:none;
+}
+
+input[required]{
+	border-width: 2px;
+	border-style: solid;
+	border-color: pink;
+	width: 90%
+}
+
+#ceu-motto + img{
+	height:300px;
+	width: 300px;
+	border-radius: 150px;
+}
+
+#learning-list li{
+	color: #075966;
+}
+a{
+	text-decoration: none;
+}
+form {
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+	height: 185px;
+	width: 25vw;
+	position: relative;
+	left: 37.25%
+}
+
+selection > form > label {
+	color: rgb(0,0,128);
+}
+
+button {
+	background-color: #cf0053;
+	color: white;
+	border: 0;
+	border-radius: 15px;
 }
